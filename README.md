@@ -1,5 +1,5 @@
 # crashfeverjpxianyu
-安卓玩家专用游戏客户端下载链接：https://adg.smrn.xyz:55675/OneDrive
+安卓玩家专用游戏客户端下载链接：https://adg.smrn.xyz
 相比原版只添加了ssl证书支持，无其他改动，功能与官方完全一致。
 若出现连不上等问题，可以先到本页面看看情况，每次更新变动都会在这里说明情况。有能力可以自己注册一个github账号，可以提issue讨论问题。
 
