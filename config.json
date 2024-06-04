@@ -1,0 +1,35 @@
+{
+    "inbounds": [
+        {
+            "type": "vless",
+            "listen": "0.0.0.0",
+            "listen_port": 443,
+            "users": [
+                {
+                    "uuid": "c5c094e1-17fb-4ca8-9ce0-0313e8fd86e8",
+                    "flow": "xtls-rprx-vision"
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "server_name": "adg.smrn.xyz",
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "adg.smrn.xyz",
+                        "server_port": 443
+                    },
+                    "private_key": "COnx4clnz74McCsZa6wdSEX5pWE7UC-mWi4M1k3iek4",
+                    "short_id": [ 
+                        "12341234abcdabcd"
+                    ]
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "direct"
+        }
+    ]
+}
